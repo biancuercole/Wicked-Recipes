@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObjectClickHandler : MonoBehaviour
 {
     private bool canCollect = false;
+    public string objectName;
 
     private void Update()
     {
@@ -17,6 +18,7 @@ public class ObjectClickHandler : MonoBehaviour
             {
                 Debug.Log("Objeto tocado: " + clickedObject.name);
                 clickedObject.gameObject.SetActive(false);
+                Inventory.instance.AddItem(clickedObject.name);
             }
         }
     }

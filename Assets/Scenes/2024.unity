@@ -197,7 +197,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.8679245, g: 0.118725546, b: 0.118725546, a: 1}
   m_FlipX: 0
@@ -1458,11 +1458,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 858747950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650e78ffe88ed734390b568422d59d45, type: 3}
+  m_Script: {fileID: 11500000, guid: 145b34e517971cc4ea35aa923f13a57d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryButton: {fileID: 760588562}
   inventory: {fileID: 232499542}
+  inventoryText: {fileID: 101503947}
 --- !u!1 &953709076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,7 +1539,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
   m_Color: {r: 0.8773585, g: 0.6482943, b: 0.43454075, a: 1}
   m_FlipX: 0
@@ -1701,9 +1702,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06799829, y: 0}
+  m_Offset: {x: -0.006234646, y: 0}
   serializedVersion: 2
-  m_Radius: 1.0303861
+  m_Radius: 0.52745354
 --- !u!50 &1075447517
 Rigidbody2D:
   serializedVersion: 4
@@ -2460,6 +2461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1609c4f317192c64d9224e24a0e0aeea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectName: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
