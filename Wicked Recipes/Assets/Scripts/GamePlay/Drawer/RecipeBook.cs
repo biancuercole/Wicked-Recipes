@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RecipeBook : MonoBehaviour
 {
@@ -14,5 +15,11 @@ public class RecipeBook : MonoBehaviour
 
     public void CloseBook() {
         popupRecetario.SetActive(false);
+    }
+
+    public void TravelToYear()
+    {
+        GameManager.nombreEscenaGuardada = gameObject.name; // guarda el nombre del botón
+        SceneManager.LoadScene("Labrynth");
     }
 }
