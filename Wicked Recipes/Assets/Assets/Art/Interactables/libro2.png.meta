@@ -132,37 +132,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: libro2_0
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 12
-        width: 11
-        height: 231
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 806d60d7c397bfee0800000000000000
-      internalID: -1226253172825729528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: libro2_1
       rect:
         serializedVersion: 2
-        x: 14
-        y: 16
-        width: 165
-        height: 226
+        x: 8
+        y: 10
+        width: 176
+        height: 237
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -175,33 +153,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: libro2_2
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 10
-        width: 150
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 870a96b85651e6b90800000000000000
-      internalID: -7246831224517713800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5ad86d879b0b5794d9676ea4daa520af
     internalID: 0
     vertices: []
     indices: 
