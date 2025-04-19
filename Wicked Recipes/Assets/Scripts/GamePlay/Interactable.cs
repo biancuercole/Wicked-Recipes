@@ -3,44 +3,45 @@ using UnityEngine.SceneManagement;
 
 public class Interactable : MonoBehaviour
 {
-    public string mensajeLog = "Interactuaste con un objeto.";
-    public bool cambiaEscena = false;
-    public string nombreEscena = "Cajon";
     public GameObject lupaPrefab;
-
     private GameObject lupaInstanciada;
-    private bool enRango = false;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-        {
-            enRango = true;
             MostrarLupa();
-        }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-        {
-            enRango = false;
             OcultarLupa();
-        }
     }
 
-    void Update()
+    public void Interactuar()
     {
-        if (enRango && Input.GetKeyDown(KeyCode.E))
+        if (CompareTag("Cajon"))
         {
-            if (cambiaEscena)
+            Debug.Log("Cambiando a escena: Drawer");
+            SceneManager.LoadScene("Drawer");
+        }
+        else if (CompareTag("Caja"))
+        {
+            PlayerInventory inventario = GameObject.FindWithTag("Player")?.GetComponent<PlayerInventory>();
+
+            if (inventario != null && inventario.TieneTodosLosIngredientes())
             {
-                SceneManager.LoadScene(nombreEscena);
+                Debug.Log("Minijuego comenzado");
+                FindFirstObjectByType<CutMinigame>().IniciarMinijuego();
             }
             else
             {
-                Debug.Log(mensajeLog);
+                Debug.Log("Te falta recolectar ingredientes.");
             }
+        }
+        else
+        {
+            Debug.Log("Objeto interactuado sin acción definida.");
         }
     }
 
@@ -49,7 +50,7 @@ public class Interactable : MonoBehaviour
         if (lupaPrefab != null && lupaInstanciada == null)
         {
             lupaInstanciada = Instantiate(lupaPrefab, transform.position + Vector3.up * 1.5f, Quaternion.identity);
-            lupaInstanciada.transform.SetParent(transform); // para que se mueva con el objeto si hace falta
+            lupaInstanciada.transform.SetParent(transform);
         }
     }
 

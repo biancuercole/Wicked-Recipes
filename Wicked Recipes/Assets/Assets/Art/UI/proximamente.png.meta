@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: caeeb70f8e0394e45b32f69b7721eb1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7228958048988547937
+    second: proximamente_0
+  - first:
+      213: -8214444215983389822
+    second: proximamente_1
+  - first:
+      213: 7884994303774432003
+    second: proximamente_2
+  - first:
+      213: -6522722528294887855
+    second: proximamente_3
+  - first:
+      213: 812565358433133277
+    second: proximamente_4
+  - first:
+      213: -3595967433428312082
+    second: proximamente_5
+  - first:
+      213: 7682811736940538802
+    second: proximamente_6
+  - first:
+      213: -8725408441297402127
+    second: proximamente_7
+  - first:
+      213: -762211777296801963
+    second: proximamente_8
+  - first:
+      213: -8823205123271726168
+    second: proximamente_9
+  - first:
+      213: -6625519856111139765
+    second: proximamente_10
+  - first:
+      213: -8644834515950941939
+    second: proximamente_11
+  - first:
+      213: -2385773075633635268
+    second: proximamente_12
+  - first:
+      213: -2209534037414023720
+    second: proximamente_13
+  - first:
+      213: -4880499088774510323
+    second: proximamente_14
+  - first:
+      213: -5821543352262427606
+    second: proximamente_15
+  - first:
+      213: -2269878391811949695
+    second: proximamente_16
+  - first:
+      213: -7890412594011556227
+    second: proximamente_17
+  - first:
+      213: -5688434462387940256
+    second: proximamente_18
+  - first:
+      213: 1184599035148955134
+    second: proximamente_19
+  - first:
+      213: 3427192531046043056
+    second: proximamente_20
+  - first:
+      213: 5765790130615990203
+    second: proximamente_21
+  - first:
+      213: 4112562399475090219
+    second: proximamente_22
+  - first:
+      213: 2891192394800631777
+    second: proximamente_23
+  - first:
+      213: -438106155620431996
+    second: proximamente_24
+  - first:
+      213: -4164478610453058729
+    second: proximamente_25
+  - first:
+      213: 6250917048588406607
+    second: proximamente_26
+  - first:
+      213: 6921780145357203262
+    second: proximamente_27
+  - first:
+      213: -298356579336044606
+    second: proximamente_28
+  - first:
+      213: -865464052240221303
+    second: proximamente_29
+  - first:
+      213: 786847356883041305
+    second: proximamente_30
+  - first:
+      213: -5253329426487792571
+    second: proximamente_31
+  - first:
+      213: -7203375169288108613
+    second: proximamente_32
+  - first:
+      213: -3529208693672300939
+    second: proximamente_33
+  - first:
+      213: -2261739564153028342
+    second: proximamente_34
+  - first:
+      213: -2227074899150119530
+    second: proximamente_35
+  - first:
+      213: 5718181494820629955
+    second: proximamente_36
+  - first:
+      213: 7240470816486368545
+    second: proximamente_37
+  - first:
+      213: -5281219216294055141
+    second: proximamente_38
+  - first:
+      213: -5802505726872589466
+    second: proximamente_39
+  - first:
+      213: -4773671737483117850
+    second: proximamente_40
+  - first:
+      213: -6153422495010090385
+    second: proximamente_41
+  - first:
+      213: -5562781787575227485
+    second: proximamente_42
+  - first:
+      213: 4934515889618078327
+    second: proximamente_43
+  - first:
+      213: 82806402153898478
+    second: proximamente_44
+  - first:
+      213: -2770717819177309772
+    second: proximamente_45
+  - first:
+      213: 3608483871656605290
+    second: proximamente_46
+  - first:
+      213: 7711393978320641557
+    second: proximamente_47
+  - first:
+      213: -6184626989521347711
+    second: proximamente_48
+  - first:
+      213: 260248855116219449
+    second: proximamente_49
+  - first:
+      213: 3276970386066126824
+    second: proximamente_50
+  - first:
+      213: -190449309315841256
+    second: proximamente_51
+  - first:
+      213: 8881117575325664488
+    second: proximamente_52
+  - first:
+      213: 2778432790990099456
+    second: proximamente_53
+  - first:
+      213: 3214518667798037109
+    second: proximamente_54
+  - first:
+      213: -1138444736071847084
+    second: proximamente_55
+  - first:
+      213: -820138020717981099
+    second: proximamente_56
+  - first:
+      213: -4767311171545608041
+    second: proximamente_57
+  - first:
+      213: 5981771673773228899
+    second: proximamente_58
+  - first:
+      213: 7787880239193819084
+    second: proximamente_59
+  - first:
+      213: 2687200682670850546
+    second: proximamente_60
+  - first:
+      213: -6857739003361657553
+    second: proximamente_61
+  - first:
+      213: 2127672933776550605
+    second: proximamente_62
+  - first:
+      213: 6727977359858135115
+    second: proximamente_63
+  - first:
+      213: 2132785773117602098
+    second: proximamente_64
+  - first:
+      213: 824720740473481299
+    second: proximamente_65
+  - first:
+      213: 6937109077154300949
+    second: proximamente_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: proximamente_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 446
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bc92e7b0b625460800000000000000
+      internalID: 7228958048988547937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 450
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2834c0fe18e600e80800000000000000
+      internalID: -8214444215983389822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 453
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b1474fa802d6d60800000000000000
+      internalID: 7884994303774432003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 461
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e9b8c5b62aa75a0800000000000000
+      internalID: -6522722528294887855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 460
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2e13a63efc64b00800000000000000
+      internalID: 812565358433133277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 462
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefd1aaebae881ec0800000000000000
+      internalID: -3595967433428312082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 466
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbea88c194de9a60800000000000000
+      internalID: 7682811736940538802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 465
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f60648704f19e680800000000000000
+      internalID: -8725408441297402127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_8
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 461
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fda9a4d641c65f0800000000000000
+      internalID: -762211777296801963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 459
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab6bfe00bdad8580800000000000000
+      internalID: -8823205123271726168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 462
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44c23c5bcc6d04a0800000000000000
+      internalID: -6625519856111139765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 460
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0945be5fc0670880800000000000000
+      internalID: -8644834515950941939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_12
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 453
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c308a20370804eed0800000000000000
+      internalID: -2385773075633635268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_13
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 453
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd6dc4ef782651e0800000000000000
+      internalID: -2209534037414023720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_14
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 448
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d094afecfebf44cb0800000000000000
+      internalID: -4880499088774510323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_15
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 448
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c7cdb3a29b53fa0800000000000000
+      internalID: -5821543352262427606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 442
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bb6b401a5cf70e0800000000000000
+      internalID: -2269878391811949695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_17
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 441
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d763caa0d8f9f7290800000000000000
+      internalID: -7890412594011556227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_18
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 435
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064d64dbefe9e01b0800000000000000
+      internalID: -5688434462387940256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_19
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 431
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efde253db8a807010800000000000000
+      internalID: 1184599035148955134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_20
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 428
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd0fdde275df8f20800000000000000
+      internalID: 3427192531046043056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 425
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7b1d84393340050800000000000000
+      internalID: 5765790130615990203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_22
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 423
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23475986b1c21930800000000000000
+      internalID: 4112562399475090219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 275
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ef07653a249f1820800000000000000
+      internalID: 2891192394800631777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_24
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 268
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487055cc5c88be9f0800000000000000
+      internalID: -438106155620431996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_25
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 293
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bab35a4ccc436c0800000000000000
+      internalID: -4164478610453058729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_26
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 291
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f8b89dfe7bfb650800000000000000
+      internalID: 6250917048588406607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_27
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 291
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e372e597e5a1f0060800000000000000
+      internalID: 6921780145357203262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_28
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 293
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf364895460cdbf0800000000000000
+      internalID: -298356579336044606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_29
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 298
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bf958a7014df3f0800000000000000
+      internalID: -865464052240221303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_30
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 299
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91cf77f80817bea00800000000000000
+      internalID: 786847356883041305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_31
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 301
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ca61e48bc6817b0800000000000000
+      internalID: -5253329426487792571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_32
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 301
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb586bad278780c90800000000000000
+      internalID: -7203375169288108613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 276
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e2173446bb50fc0800000000000000
+      internalID: -3529208693672300939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_34
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 277
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01463089dfac90e0800000000000000
+      internalID: -2261739564153028342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 275
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dd7f3cd27d711e0800000000000000
+      internalID: -2227074899150119530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 271
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdeef7f5cf0b5f40800000000000000
+      internalID: 5718181494820629955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_37
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 271
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125a04f88d15b7460800000000000000
+      internalID: 7240470816486368545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_38
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 275
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1373d79a1755b6b0800000000000000
+      internalID: -5281219216294055141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_39
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 268
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66be69ec8cb597fa0800000000000000
+      internalID: -5802505726872589466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_40
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 266
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea3ff4c8d280cdb0800000000000000
+      internalID: -4773671737483117850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_41
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 269
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f629600d7d6aa9aa0800000000000000
+      internalID: -6153422495010090385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_42
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 261
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abe094ef670dc2b0800000000000000
+      internalID: -5562781787575227485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 61
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ac433be0cea7440800000000000000
+      internalID: 4934515889618078327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_44
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 66
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1e289ebff262100800000000000000
+      internalID: 82806402153898478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_45
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 75
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b96717c2de6c89d0800000000000000
+      internalID: -2770717819177309772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_46
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 73
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6671d376f8e31230800000000000000
+      internalID: 3608483871656605290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_47
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e53e077ff540b60800000000000000
+      internalID: 7711393978320641557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 30
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b5945458acb2aa0800000000000000
+      internalID: -6184626989521347711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_49
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 41
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934876274f69c9300800000000000000
+      internalID: 260248855116219449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_50
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 46
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e732f834332a7d20800000000000000
+      internalID: 3276970386066126824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_51
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 56
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813c28abc536b5df0800000000000000
+      internalID: -190449309315841256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_52
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 57
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4c3cd6161104b70800000000000000
+      internalID: 8881117575325664488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_53
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 30
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004134317e9fe8620800000000000000
+      internalID: 2778432790990099456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_54
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 30
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572c6f572b34c9c20800000000000000
+      internalID: 3214518667798037109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_55
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 35
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45336065b8e6330f0800000000000000
+      internalID: -1138444736071847084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_56
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 36
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5521050c0d84e94f0800000000000000
+      internalID: -820138020717981099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_57
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 29
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790d54e6fbb17ddb0800000000000000
+      internalID: -4767311171545608041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_58
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 28
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3634fbef4a5830350800000000000000
+      internalID: 5981771673773228899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_59
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 28
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc78e6ac0db141c60800000000000000
+      internalID: 7787880239193819084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 28
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f188c298cada4520800000000000000
+      internalID: 2687200682670850546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_61
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 30
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d7946d5ba64d0a0800000000000000
+      internalID: -6857739003361657553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_62
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 32
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcae6f7a243078d10800000000000000
+      internalID: 2127672933776550605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_63
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 33
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40f63f23c39e5d50800000000000000
+      internalID: 6727977359858135115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_64
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 36
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2397ea45c5d299d10800000000000000
+      internalID: 2132785773117602098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_65
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 27
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358a1d6d42ff17b00800000000000000
+      internalID: 824720740473481299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: proximamente_66
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5148be783ff854060800000000000000
+      internalID: 6937109077154300949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      proximamente_0: 7228958048988547937
+      proximamente_1: -8214444215983389822
+      proximamente_10: -6625519856111139765
+      proximamente_11: -8644834515950941939
+      proximamente_12: -2385773075633635268
+      proximamente_13: -2209534037414023720
+      proximamente_14: -4880499088774510323
+      proximamente_15: -5821543352262427606
+      proximamente_16: -2269878391811949695
+      proximamente_17: -7890412594011556227
+      proximamente_18: -5688434462387940256
+      proximamente_19: 1184599035148955134
+      proximamente_2: 7884994303774432003
+      proximamente_20: 3427192531046043056
+      proximamente_21: 5765790130615990203
+      proximamente_22: 4112562399475090219
+      proximamente_23: 2891192394800631777
+      proximamente_24: -438106155620431996
+      proximamente_25: -4164478610453058729
+      proximamente_26: 6250917048588406607
+      proximamente_27: 6921780145357203262
+      proximamente_28: -298356579336044606
+      proximamente_29: -865464052240221303
+      proximamente_3: -6522722528294887855
+      proximamente_30: 786847356883041305
+      proximamente_31: -5253329426487792571
+      proximamente_32: -7203375169288108613
+      proximamente_33: -3529208693672300939
+      proximamente_34: -2261739564153028342
+      proximamente_35: -2227074899150119530
+      proximamente_36: 5718181494820629955
+      proximamente_37: 7240470816486368545
+      proximamente_38: -5281219216294055141
+      proximamente_39: -5802505726872589466
+      proximamente_4: 812565358433133277
+      proximamente_40: -4773671737483117850
+      proximamente_41: -6153422495010090385
+      proximamente_42: -5562781787575227485
+      proximamente_43: 4934515889618078327
+      proximamente_44: 82806402153898478
+      proximamente_45: -2770717819177309772
+      proximamente_46: 3608483871656605290
+      proximamente_47: 7711393978320641557
+      proximamente_48: -6184626989521347711
+      proximamente_49: 260248855116219449
+      proximamente_5: -3595967433428312082
+      proximamente_50: 3276970386066126824
+      proximamente_51: -190449309315841256
+      proximamente_52: 8881117575325664488
+      proximamente_53: 2778432790990099456
+      proximamente_54: 3214518667798037109
+      proximamente_55: -1138444736071847084
+      proximamente_56: -820138020717981099
+      proximamente_57: -4767311171545608041
+      proximamente_58: 5981771673773228899
+      proximamente_59: 7787880239193819084
+      proximamente_6: 7682811736940538802
+      proximamente_60: 2687200682670850546
+      proximamente_61: -6857739003361657553
+      proximamente_62: 2127672933776550605
+      proximamente_63: 6727977359858135115
+      proximamente_64: 2132785773117602098
+      proximamente_65: 824720740473481299
+      proximamente_66: 6937109077154300949
+      proximamente_7: -8725408441297402127
+      proximamente_8: -762211777296801963
+      proximamente_9: -8823205123271726168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

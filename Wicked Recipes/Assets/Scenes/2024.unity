@@ -182,7 +182,7 @@ Transform:
   m_GameObject: {fileID: 98153138}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.34, y: 1.23, z: 0}
+  m_LocalPosition: {x: -0.84, y: 1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -232,7 +232,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -3019985028412158030, guid: 462db02e1e5c0ee45b46e8ee3e5d3635, type: 3}
+  m_Sprite: {fileID: 2411807591564956518, guid: 12268019c86727944b622f0c737336f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -255,9 +255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eb87271648033245b6c38158ae12aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensajeLog: Interactuaste con un objeto.
-  cambiaEscena: 0
-  nombreEscena: Cajon
   lupaPrefab: {fileID: 5966797797683753565, guid: 23540dc4ad743f74084bc73530c5d14c, type: 3}
 --- !u!61 &98153142
 BoxCollider2D:
@@ -297,7 +294,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.93, y: 2.76}
+    oldSize: {x: 2.12, y: 2.1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -366,7 +363,7 @@ Transform:
   m_GameObject: {fileID: 563092152}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.35, y: -1.17, z: 0}
+  m_LocalPosition: {x: 4.74, y: -0.758, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -416,7 +413,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 2000304209446663143, guid: 5e302132fb54ef7408e7e02414fff63f, type: 3}
+  m_Sprite: {fileID: -4618223316749568484, guid: 46130060f228c9e4c9eeb3d8b82c4166, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -439,9 +436,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eb87271648033245b6c38158ae12aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensajeLog: Interactuaste con un objeto.
-  cambiaEscena: 0
-  nombreEscena: Cajon
   lupaPrefab: {fileID: 5966797797683753565, guid: 23540dc4ad743f74084bc73530c5d14c, type: 3}
 --- !u!61 &563092156
 BoxCollider2D:
@@ -481,7 +475,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.01, y: 0.43}
+    oldSize: {x: 1.39, y: 0.76}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -515,7 +509,7 @@ Transform:
   m_GameObject: {fileID: 570269586}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.21, y: -0.99, z: 0}
+  m_LocalPosition: {x: -4.21, y: -0.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -565,7 +559,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3954063691907399286, guid: 2942fd73153b84448b3a4e09b8fcbf93, type: 3}
+  m_Sprite: {fileID: 3187130487569774074, guid: c71d3275644ec2540b88b30a12dc2afb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -727,7 +721,7 @@ GameObject:
   - component: {fileID: 1101071495}
   m_Layer: 0
   m_Name: Cajon
-  m_TagString: Untagged
+  m_TagString: Cajon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -791,7 +785,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 4199156220003696399, guid: 7585abbd51098b34e8bab3e225048f48, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -799,7 +793,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1101071494
@@ -814,9 +808,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eb87271648033245b6c38158ae12aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensajeLog: Interactuaste con un objeto.
-  cambiaEscena: 1
-  nombreEscena: Drawer
   lupaPrefab: {fileID: 5966797797683753565, guid: 23540dc4ad743f74084bc73530c5d14c, type: 3}
 --- !u!61 &1101071495
 BoxCollider2D:
@@ -940,7 +931,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -408327487947842520, guid: 209d30fdfcfbad643989946bb85c049b, type: 3}
+  m_Sprite: {fileID: -5804113098045510894, guid: 5e87b6d70e320b841897f59e0d110009, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -979,7 +970,7 @@ Transform:
   m_GameObject: {fileID: 1230344278}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.12, y: -0.61, z: 0}
+  m_LocalPosition: {x: 2.12, y: 0.044, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1029,7 +1020,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 6863325022048168541, guid: 6a9224258ea3a6a43a980e7271547a7a, type: 3}
+  m_Sprite: {fileID: -7466439402787509201, guid: 9f89aabc41b00ec43ad0c8c689b5e660, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1052,9 +1043,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9eb87271648033245b6c38158ae12aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mensajeLog: Interactuaste con un objeto.
-  cambiaEscena: 0
-  nombreEscena: Cajon
   lupaPrefab: {fileID: 5966797797683753565, guid: 23540dc4ad743f74084bc73530c5d14c, type: 3}
 --- !u!61 &1230344282
 BoxCollider2D:
@@ -1094,7 +1082,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.94, y: 1.59}
+    oldSize: {x: 1.28, y: 2.37}
     newSize: {x: 0.94, y: 1.59}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1166,7 +1154,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 1253890723384121518, guid: 2abd0ce75a740c04e925b9365a87b96b, type: 3}
+  m_Sprite: {fileID: -5676442107902922972, guid: ebfb7af9a5f29e443b898a2665d8741c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1235,7 +1223,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1243,7 +1231,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 3.6}
+    oldSize: {x: 1.7, y: 3.54}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1338,7 +1326,7 @@ Transform:
   m_GameObject: {fileID: 1777984829}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.26, y: -2.62, z: 0}
+  m_LocalPosition: {x: 3.26, y: -2.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1388,7 +1376,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -7473354087148204023, guid: 718b961856070ba428c25632db3c7cfd, type: 3}
+  m_Sprite: {fileID: 5475894585966112152, guid: d823ec72bf2ed4b48849d20638cc843e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
