@@ -6,25 +6,55 @@ public class Interactable : MonoBehaviour
     public GameObject lupaPrefab;
     private GameObject lupaInstanciada;
 
+    private bool jugadorCerca = false; // ✅ Para saber si el jugador está cerca
+
+    [TextArea]
+    public string mensajeAlInteractuar; // ✅ Para mostrar texto al interactuar
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
+        {
+            jugadorCerca = true;
             MostrarLupa();
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
+        {
+            jugadorCerca = false;
             OcultarLupa();
+        }
+    }
+
+    void OnMouseDown() // ✅ Detectar clic sobre el objeto
+    {
+        if (jugadorCerca)
+        {
+            Interactuar();
+            DialogoUI.Instance.MostrarDialogo(mensajeAlInteractuar); // ✅ Mostrar mensaje del personaje
+        }
     }
 
     public void Interactuar()
     {
         if (CompareTag("Cajon"))
         {
-            Debug.Log("Cambiando a escena: Drawer");
-            SceneManager.LoadScene("Drawer");
+            PlayerInventory inventario = GameObject.FindWithTag("Player")?.GetComponent<PlayerInventory>();
+
+            if (inventario != null && inventario.tieneLlave)
+            {
+                Debug.Log("Abriendo cajón...");
+                SceneManager.LoadScene("Drawer");
+            }
+            else
+            {
+                DialogoUI.Instance.MostrarDialogo("Está cerrado... necesito una llave.");
+            }
         }
+
         else if (CompareTag("Caja"))
         {
             PlayerInventory inventario = GameObject.FindWithTag("Player")?.GetComponent<PlayerInventory>();

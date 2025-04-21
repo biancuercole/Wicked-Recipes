@@ -22,4 +22,6 @@ public class RecipeBook : MonoBehaviour
         GameManager.nombreEscenaGuardada = gameObject.name; // guarda el nombre del botón
         SceneManager.LoadScene("Labrynth");
     }
+
+    
 }

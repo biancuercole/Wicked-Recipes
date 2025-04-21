@@ -4,6 +4,7 @@ public class PlayerInventory : MonoBehaviour
 {
     public bool tienePan = false;
     public bool tieneTomate = false;
+    public bool tieneLlave = false;
 
     public bool TieneTodosLosIngredientes()
     {
