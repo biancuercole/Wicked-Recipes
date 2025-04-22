@@ -39,41 +39,39 @@ public class Interactable : MonoBehaviour
     }
 
     public void Interactuar()
+{
+    PlayerInventory inventario = PlayerInventory.Instance;
+
+    if (CompareTag("Cajon"))
     {
-        if (CompareTag("Cajon"))
+        if (inventario != null && inventario.tieneLlave)
         {
-            PlayerInventory inventario = GameObject.FindWithTag("Player")?.GetComponent<PlayerInventory>();
-
-            if (inventario != null && inventario.tieneLlave)
-            {
-                Debug.Log("Abriendo cajón...");
-                SceneManager.LoadScene("Drawer");
-            }
-            else
-            {
-                DialogoUI.Instance.MostrarDialogo("Está cerrado... necesito una llave.");
-            }
-        }
-
-        else if (CompareTag("Caja"))
-        {
-            PlayerInventory inventario = GameObject.FindWithTag("Player")?.GetComponent<PlayerInventory>();
-
-            if (inventario != null && inventario.TieneTodosLosIngredientes())
-            {
-                Debug.Log("Minijuego comenzado");
-                FindFirstObjectByType<CutMinigame>().IniciarMinijuego();
-            }
-            else
-            {
-                Debug.Log("Te falta recolectar ingredientes.");
-            }
+            Debug.Log("Abriendo cajón...");
+            SceneManager.LoadScene("Drawer");
         }
         else
         {
-            Debug.Log("Objeto interactuado sin acción definida.");
+            DialogoUI.Instance.MostrarDialogo("Está cerrado... necesito una llave.");
         }
     }
+    else if (CompareTag("Caja"))
+    {
+        if (inventario != null && inventario.TieneTodosLosIngredientes())
+        {
+            Debug.Log("Minijuego comenzado");
+            FindFirstObjectByType<CutMinigame>().IniciarMinijuego();
+        }
+        else
+        {
+            Debug.Log("Te falta recolectar ingredientes.");
+        }
+    }
+    else
+    {
+        Debug.Log("Objeto interactuado sin acción definida.");
+    }
+}
+
 
     void MostrarLupa()
     {

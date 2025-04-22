@@ -31,10 +31,6 @@ public class Florero : MonoBehaviour
 
         DialogoUI.Instance.MostrarDialogo("¡Se rompió el florero! Había una llave dentro.");
 
-        PlayerInventory inventario = GameObject.FindWithTag("Player")?.GetComponent<PlayerInventory>();
-        if (inventario != null)
-        {
-            inventario.tieneLlave = true;
-        }
+        PlayerInventory.Instance.tieneLlave = true;
     }
 }

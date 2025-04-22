@@ -19,6 +19,7 @@ public class RecipeBook : MonoBehaviour
 
     public void TravelToYear()
     {
+        Debug.Log("Prueba");
         GameManager.nombreEscenaGuardada = gameObject.name; // guarda el nombre del botón
         SceneManager.LoadScene("Labrynth");
     }
