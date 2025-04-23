@@ -4,8 +4,8 @@ public class PlayerInventory : MonoBehaviour
 {
     public static PlayerInventory Instance;
 
-    public bool tienePan = false;
-    public bool tieneTomate = false;
+    public bool tieneGusanos = false;
+    public bool tieneMasa = false;
     public bool tieneLlave = false;
     public bool llaveEspecialObtenida = false;
 
@@ -24,19 +24,19 @@ public class PlayerInventory : MonoBehaviour
 
     public bool TieneTodosLosIngredientes()
     {
-        return tienePan && tieneTomate;
+        return tieneGusanos && tieneMasa;
     }
 
     public void RecolectarIngrediente(string ingrediente)
     {
-        if (ingrediente == "Pan")
+        if (ingrediente == "Gusano")
         {
-            tienePan = true;
+            tieneGusanos = true;
             Debug.Log("Recolectaste Pan");
         }
-        else if (ingrediente == "Tomate")
+        else if (ingrediente == "Masa")
         {
-            tieneTomate = true;
+            tieneMasa = true;
             Debug.Log("Recolectaste Tomate");
         }
     }

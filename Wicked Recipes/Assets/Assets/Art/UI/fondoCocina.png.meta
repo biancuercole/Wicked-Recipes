@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fondoCocina_0: 6432807970843915286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

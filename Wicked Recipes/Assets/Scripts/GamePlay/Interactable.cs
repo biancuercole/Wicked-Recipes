@@ -5,6 +5,8 @@ public class Interactable : MonoBehaviour
 {
     public GameObject lupaPrefab;
     private GameObject lupaInstanciada;
+    [SerializeField] private GameObject curtainSprite;
+    [SerializeField] private GameObject dough; // ✅ Referencia al objeto de la cortina
 
     private bool jugadorCerca = false; // ✅ Para saber si el jugador está cerca
 
@@ -66,6 +68,16 @@ public class Interactable : MonoBehaviour
             Debug.Log("Te falta recolectar ingredientes.");
         }
     }
+    else if (CompareTag("Cortina"))
+{
+    DialogoUI.Instance.MostrarDialogo("Abriste la cortina. ¡Parece que hay algo!");
+    dough.SetActive(true);
+    curtainSprite.SetActive(true);
+
+    // Desactiva el collider para que no interfiera
+    GetComponent<Collider2D>().enabled = false;
+}
+
     else
     {
         Debug.Log("Objeto interactuado sin acción definida.");

@@ -4,17 +4,15 @@ public class Ingredients : MonoBehaviour
 {
     public string nombreIngrediente; // "Pan" o "Tomate"
     private bool jugadorCerca = false;
-    private PlayerInventory inventarioJugador;
 
-    void Update()
+    void OnMouseDown()
     {
-        if (jugadorCerca && Input.GetKeyDown(KeyCode.E))
+        Debug.Log("click00");
+        if (jugadorCerca && PlayerInventory.Instance != null)
         {
-            if (inventarioJugador != null)
-            {
-                inventarioJugador.RecolectarIngrediente(nombreIngrediente);
-                Destroy(gameObject);
-            }
+            Debug.Log("click01");
+            PlayerInventory.Instance.RecolectarIngrediente(nombreIngrediente);
+            Destroy(gameObject);
         }
     }
 
@@ -23,7 +21,6 @@ public class Ingredients : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorCerca = true;
-            inventarioJugador = other.GetComponent<PlayerInventory>();
         }
     }
 
@@ -32,7 +29,6 @@ public class Ingredients : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorCerca = false;
-            inventarioJugador = null;
         }
     }
 }

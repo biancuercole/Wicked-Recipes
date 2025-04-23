@@ -8,6 +8,8 @@ public class Mano : MonoBehaviour
         
         if (PlayerInventory.Instance != null)
         {
+            //desactivar el objeto
+            gameObject.SetActive(false); // Desactivar el objeto de la escena
             PlayerInventory.Instance.llaveEspecialObtenida = true;
             Debug.Log("Recolectaste la llave especial.");
             DialogoUI.Instance.MostrarDialogo("Recolectaste una llave misteriosa... parece importante.");
