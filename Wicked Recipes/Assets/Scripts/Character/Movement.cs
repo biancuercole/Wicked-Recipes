@@ -15,38 +15,38 @@ public class Movement : MonoBehaviour
         ManejarInteraccion();
     }
 
-void ManejarMovimiento()
-{
-    if (Mouse.current.leftButton.wasPressedThisFrame)
+    void ManejarMovimiento()
     {
-        // Detectar si el clic fue sobre un objeto con "Interactable"
-        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
-
-        if (hit.collider != null && hit.collider.GetComponent<Interactable>() != null)
+        if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            // Si el jugador está cerca del objeto, no moverse
-            if (objetoEnTrigger == hit.collider)
+            // Raycast desde la cámara al mouse
+            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+
+            if (hit.collider != null)
             {
-                Debug.Log("Clic sobre objeto interactuable cercano. No se mueve.");
-                return;
+                // Si es el objeto en el que estamos cerca y tiene Interactable o Tag Interactuable, no moverse
+                if (hit.collider == objetoEnTrigger &&
+                   (hit.collider.GetComponent<Interactable>() != null || hit.collider.CompareTag("Interactuable")))
+                {
+                    Debug.Log("Clic sobre objeto interactuable cercano. No se mueve.");
+                    return;
+                }
             }
+
+            // Si no es un objeto interactuable cercano, moverse al punto clickeado
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            targetPosition = new Vector3(mouseWorldPos.x, transform.position.y, transform.position.z);
+            isMoving = true;
         }
 
-        // Si no es un objeto interactuable cercano, sí moverse
-        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-        targetPosition = new Vector3(mouseWorldPos.x, transform.position.y, transform.position.z);
-        isMoving = true;
+        if (isMoving)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+            if (transform.position == targetPosition)
+                isMoving = false;
+        }
     }
-
-    if (isMoving)
-    {
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
-        if (transform.position == targetPosition)
-            isMoving = false;
-    }
-}
-
 
     void ManejarInteraccion()
     {
@@ -55,20 +55,31 @@ void ManejarMovimiento()
 
         Interactable interactable = objetoEnTrigger.GetComponent<Interactable>();
         if (interactable != null)
+        {
             interactable.Interactuar();
+        }
         else
-            Debug.Log("El objeto no tiene el componente Interactable.");
+        {
+            Debug.Log("Cerca de objeto interactuable con tag, pero sin script Interactable.");
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<Interactable>() != null)
+        // Acepta objetos con el script Interactable o con el tag "Interactuable"
+        if (other.GetComponent<Interactable>() != null || other.CompareTag("Interactuable"))
+        {
             objetoEnTrigger = other;
+            Debug.Log("Objeto interactuable cercano detectado: " + other.name);
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
         if (other == objetoEnTrigger)
+        {
             objetoEnTrigger = null;
+            Debug.Log("Saliste del rango del objeto interactuable.");
+        }
     }
 }

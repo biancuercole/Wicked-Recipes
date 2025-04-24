@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9f89aabc41b00ec43ad0c8c689b5e660
+guid: 480194ec974770a4faa11764ac9bd2a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7466439402787509201
-    second: floreroNuevo_0
+      213: 3460977914242496700
+    second: floreroRoto_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: floreroNuevo_0
+      name: floreroRoto_0
       rect:
         serializedVersion: 2
-        x: 71
-        y: 6
-        width: 128
-        height: 238
+        x: 0
+        y: 0
+        width: 270
+        height: 260
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2ceedb0ce0e16890800000000000000
-      internalID: -7466439402787509201
+      spriteID: cb875e1731dd70030800000000000000
+      internalID: 3460977914242496700
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a491f70bc1d9bf2499409d1da606926d
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      floreroRoto_0: 3460977914242496700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

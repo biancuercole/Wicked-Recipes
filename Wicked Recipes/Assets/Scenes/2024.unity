@@ -257,6 +257,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lupaPrefab: {fileID: 5966797797683753565, guid: 23540dc4ad743f74084bc73530c5d14c, type: 3}
+  curtainSprite: {fileID: 0}
+  dough: {fileID: 0}
   mensajeAlInteractuar: 'Un dibujo que hizo mi hermano, dice "golpea el florero 4
     veces"
 
@@ -640,8 +642,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a4d56ee70c21a469c34525f16311fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tienePan: 0
-  tieneTomate: 0
+  tieneGusanos: 0
+  tieneMasa: 0
   tieneLlave: 0
   llaveEspecialObtenida: 0
 --- !u!4 &504328798
@@ -761,6 +763,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lupaPrefab: {fileID: 5966797797683753565, guid: 23540dc4ad743f74084bc73530c5d14c, type: 3}
+  curtainSprite: {fileID: 0}
+  dough: {fileID: 0}
   mensajeAlInteractuar: "Que extra\xF1o, no estaba ac\xE1 esta ma\xF1ana"
 --- !u!61 &563092156
 BoxCollider2D:
@@ -1134,6 +1138,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lupaPrefab: {fileID: 5966797797683753565, guid: 23540dc4ad743f74084bc73530c5d14c, type: 3}
+  curtainSprite: {fileID: 0}
+  dough: {fileID: 0}
   mensajeAlInteractuar: 
 --- !u!61 &1101071495
 BoxCollider2D:
@@ -1375,7 +1381,7 @@ Transform:
   m_GameObject: {fileID: 1230344278}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.12, y: 0.044, z: 0}
+  m_LocalPosition: {x: 2.12, y: 0.073, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1430,7 +1436,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.94, y: 1.59}
+  m_Size: {x: 1.28, y: 2.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1449,6 +1455,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lupaPrefab: {fileID: 5966797797683753565, guid: 23540dc4ad743f74084bc73530c5d14c, type: 3}
+  curtainSprite: {fileID: 0}
+  dough: {fileID: 0}
   mensajeAlInteractuar: "Son las flores de mi mam\xE1, mejor tengo cuidado de no
     romperlas"
 --- !u!61 &1230344282
@@ -1489,8 +1497,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 2.37}
-    newSize: {x: 0.94, y: 1.59}
+    oldSize: {x: 1.28, y: 2.38}
+    newSize: {x: 1.28, y: 2.38}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -1509,7 +1517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82c86b8362ed88d47a9e5ab769f43490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floreroRotoSprite: {fileID: 6863325022048168541, guid: 6a9224258ea3a6a43a980e7271547a7a, type: 3}
+  floreroRotoSprite: {fileID: 3460977914242496700, guid: 480194ec974770a4faa11764ac9bd2a3, type: 3}
 --- !u!1 &1362715581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1550,7 +1558,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8b50b4934361c1749a09c988f00b6b33, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1616,7 +1624,7 @@ MonoBehaviour:
   m_margin: {x: -7.214349, y: -0.23576307, z: -7.1200447, w: -0.23576355}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1362715583
@@ -1659,6 +1667,7 @@ GameObject:
   - component: {fileID: 1481237309}
   - component: {fileID: 1481237310}
   - component: {fileID: 1481237311}
+  - component: {fileID: 1481237312}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Player
@@ -1822,6 +1831,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1481237312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481237306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405ce6a7294019f4793c0141e62b48ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineasDeDialogo:
+  - "Mi mam\xE1 me dijo que le busque el recetario familiar para hacer un pastel
+    de gusanos"
+  - "Dijo que estaba en un caj\xF3n por ac\xE1..."
+  - "Tendr\xE9 que buscarlo"
+  iniciarAlComenzar: 1
 --- !u!1 &1571906187
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,7 +29,7 @@ public class Florero : MonoBehaviour
         roto = true;
         sr.sprite = floreroRotoSprite;
 
-        DialogoUI.Instance.MostrarDialogo("¡Se rompió el florero! Había una llave dentro.");
+        DialogoUI.Instance.EscribirTexto("¡Se rompió el florero! Había una llave dentro.", 0.03f);
 
         PlayerInventory.Instance.tieneLlave = true;
     }

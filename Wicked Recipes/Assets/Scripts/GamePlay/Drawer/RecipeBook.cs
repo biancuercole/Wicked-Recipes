@@ -10,6 +10,8 @@ public class RecipeBook : MonoBehaviour
         if (popupRecetario != null)
         {
             popupRecetario.SetActive(true);
+            GetComponent<DialogoSecuencia>().IniciarDialogo();
+
         }
     }
 

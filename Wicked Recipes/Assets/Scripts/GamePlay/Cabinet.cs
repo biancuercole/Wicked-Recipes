@@ -33,14 +33,14 @@ public class Cabinet : MonoBehaviour
             }
             else
             {
-                DialogoUI.Instance.MostrarDialogo("Está trabado... parece que necesita una llave especial.");
+                DialogoUI.Instance.EscribirTexto("Está trabado... parece que necesita una llave especial.", 0.03f);
             }
         }
     }
 
     void AbrirGabinete()
     {
-        DialogoUI.Instance.MostrarDialogo("¡Abriste el gabinete!");
+        DialogoUI.Instance.EscribirTexto("Acá están mis gusanos! Ellos aman la oscuridad", 0.03f);
         spriteRenderer = GetComponent<SpriteRenderer>();
         openSprite.SetActive(true); // Cambia el sprite del gabinete a uno abierto
         worms.SetActive(true); // Activa el objeto de los gusanos

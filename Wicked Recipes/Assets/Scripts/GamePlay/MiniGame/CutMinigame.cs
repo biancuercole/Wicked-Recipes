@@ -1,57 +1,110 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
-public class CutMinigame : MonoBehaviour
+public class BakingMinigame : MonoBehaviour
 {
-    public GameObject circuloPrefab;
-    public Transform[] posicionesSpawn;
-    public GameObject popupMinijuego;
+    [Header("Referencias UI")]
+    public RectTransform cursor;
+    public RectTransform zonaVerde;
+    public GameObject hornoUI;
+    public TextMeshProUGUI mensajeFinal;
+    public Button cerrarBoton;
+    public GameObject victorySprite;
 
-    public int totalCirculos = 5;
-    public float tiempoVida = 5f;
+    [Header("Configuración")]
+    public float velocidad = 400f;
+    public int intentosTotales = 3;
+
+    private bool moviendoDerecha = true;
+    private int intentosExitosos = 0;
+    private float anchoOriginalZonaVerde;
+    private bool jugando = false;
+
+    void Start()
+    {
+        cerrarBoton.onClick.AddListener(CerrarMinijuego);
+        anchoOriginalZonaVerde = zonaVerde.sizeDelta.x;
+        mensajeFinal.gameObject.SetActive(false);
+        hornoUI.SetActive(false);
+    }
 
     public void IniciarMinijuego()
     {
-        Time.timeScale = 0;
-        popupMinijuego.SetActive(true);
+        intentosExitosos = 0;
+        zonaVerde.sizeDelta = new Vector2(anchoOriginalZonaVerde, zonaVerde.sizeDelta.y);
+        cursor.anchoredPosition = new Vector2(-zonaVerde.parent.GetComponent<RectTransform>().rect.width / 2, cursor.anchoredPosition.y);
+        hornoUI.SetActive(true);
+        mensajeFinal.gameObject.SetActive(false);
+        jugando = true;
+    }
 
-        for (int i = 0; i < totalCirculos; i++)
+    void Update()
+    {
+        if (!jugando) return;
+
+        MoverCursor();
+
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            SpawnCirculo();
+            VerificarAcierto();
         }
     }
 
-    void SpawnCirculo()
+    void MoverCursor()
     {
-        int index = Random.Range(0, posicionesSpawn.Length);
-        GameObject circulo = Instantiate(circuloPrefab, posicionesSpawn[index].position, Quaternion.identity, popupMinijuego.transform);
+        float limiteIzq = -zonaVerde.parent.GetComponent<RectTransform>().rect.width / 2 + cursor.rect.width / 2;
+        float limiteDer = zonaVerde.parent.GetComponent<RectTransform>().rect.width / 2 - cursor.rect.width / 2;
 
-        // Añade el evento de click para eliminar el círculo
-        Button boton = circulo.GetComponent<Button>();
-        if (boton != null)
+        float delta = velocidad * Time.deltaTime * (moviendoDerecha ? 1 : -1);
+        float nuevaX = cursor.anchoredPosition.x + delta;
+
+        if (nuevaX >= limiteDer)
         {
-            boton.onClick.RemoveAllListeners(); // Limpia por si acaso
-            boton.onClick.AddListener(() =>
+            nuevaX = limiteDer;
+            moviendoDerecha = false;
+        }
+        else if (nuevaX <= limiteIzq)
+        {
+            nuevaX = limiteIzq;
+            moviendoDerecha = true;
+        }
+
+        cursor.anchoredPosition = new Vector2(nuevaX, cursor.anchoredPosition.y);
+    }
+
+    void VerificarAcierto()
+    {
+        float distancia = Mathf.Abs(cursor.anchoredPosition.x - zonaVerde.anchoredPosition.x);
+        float mitadVerde = zonaVerde.sizeDelta.x / 2;
+
+        if (distancia <= mitadVerde)
+        {
+            intentosExitosos++;
+            Debug.Log("¡Acierto!");
+
+            if (intentosExitosos >= intentosTotales)
             {
-                Destroy(circulo);
-            });
+                victorySprite.SetActive(true);
+                mensajeFinal.text = "¡Ganaste!";
+                mensajeFinal.gameObject.SetActive(true);
+                jugando = false;
+            }
+            else
+            {
+                float nuevoAncho = zonaVerde.sizeDelta.x * 0.6f;
+                zonaVerde.sizeDelta = new Vector2(nuevoAncho, zonaVerde.sizeDelta.y);
+            }
         }
-
-        StartCoroutine(DestruirCirculo(circulo));
-    }
-
-    System.Collections.IEnumerator DestruirCirculo(GameObject obj)
-    {
-        yield return new WaitForSecondsRealtime(tiempoVida);
-        if (obj != null)
+        else
         {
-            Destroy(obj);
+            Debug.Log("Fallaste");
         }
     }
 
-    public void FinalizarMinijuego()
+    void CerrarMinijuego()
     {
-        popupMinijuego.SetActive(false);
-        Time.timeScale = 1;
+        hornoUI.SetActive(false);
+        jugando = false;
     }
 }

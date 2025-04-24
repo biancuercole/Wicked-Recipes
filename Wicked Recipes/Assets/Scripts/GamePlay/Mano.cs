@@ -12,7 +12,7 @@ public class Mano : MonoBehaviour
             gameObject.SetActive(false); // Desactivar el objeto de la escena
             PlayerInventory.Instance.llaveEspecialObtenida = true;
             Debug.Log("Recolectaste la llave especial.");
-            DialogoUI.Instance.MostrarDialogo("Recolectaste una llave misteriosa... parece importante.");
+            DialogoUI.Instance.EscribirTexto("Recolectaste una llave misteriosa... parece importante.", 0.03f);
         }
     }
 }

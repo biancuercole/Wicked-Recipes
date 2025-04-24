@@ -31,16 +31,18 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    void OnMouseDown() // ✅ Detectar clic sobre el objeto
+    void OnMouseDown()
+{
+    if (jugadorCerca)
     {
-        if (jugadorCerca)
-        {
-            Interactuar();
-            DialogoUI.Instance.MostrarDialogo(mensajeAlInteractuar); // ✅ Mostrar mensaje del personaje
-        }
-    }
+        Interactuar();
 
-    public void Interactuar()
+        // CAMBIO: Usamos escritura tipo máquina de escribir
+        DialogoUI.Instance.EscribirTexto(mensajeAlInteractuar, 0.03f);
+    }
+}
+
+public void Interactuar()
 {
     PlayerInventory inventario = PlayerInventory.Instance;
 
@@ -53,7 +55,8 @@ public class Interactable : MonoBehaviour
         }
         else
         {
-            DialogoUI.Instance.MostrarDialogo("Está cerrado... necesito una llave.");
+            // CAMBIO
+            DialogoUI.Instance.EscribirTexto("Está cerrado... necesito una llave.", 0.03f);
         }
     }
     else if (CompareTag("Caja"))
@@ -61,23 +64,23 @@ public class Interactable : MonoBehaviour
         if (inventario != null && inventario.TieneTodosLosIngredientes())
         {
             Debug.Log("Minijuego comenzado");
-            FindFirstObjectByType<CutMinigame>().IniciarMinijuego();
+            FindFirstObjectByType<BakingMinigame>().IniciarMinijuego();
         }
         else
         {
-            Debug.Log("Te falta recolectar ingredientes.");
+            // CAMBIO
+            DialogoUI.Instance.EscribirTexto("Te falta recolectar ingredientes.", 0.03f);
         }
     }
     else if (CompareTag("Cortina"))
-{
-    DialogoUI.Instance.MostrarDialogo("Abriste la cortina. ¡Parece que hay algo!");
-    dough.SetActive(true);
-    curtainSprite.SetActive(true);
+    {
+        // CAMBIO
+        DialogoUI.Instance.EscribirTexto("Abriste la cortina. ¡Parece que hay algo!", 0.03f);
 
-    // Desactiva el collider para que no interfiera
-    GetComponent<Collider2D>().enabled = false;
-}
-
+        dough.SetActive(true);
+        curtainSprite.SetActive(true);
+        GetComponent<Collider2D>().enabled = false;
+    }
     else
     {
         Debug.Log("Objeto interactuado sin acción definida.");
